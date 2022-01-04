@@ -1,25 +1,5 @@
-.navigation-bar {
-  background-color: transparent!important;
-}
-.navigation-bar .brand-logo img {
-  width: 100px;
-}
-.navigation-bar .navbar-collapse {
-  justify-content: center;
-}
-.navigation-bar .nav-item .nav-link {
-  text-decoration: none;
-  color: #7f8c8d;
-  padding: 10px 25px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-.navigation-bar .nav-item .nav-link:hover {
-  color: #34495e;
-  transition: 0.1s linear;
-}
 h2 {
-  color: #9B2B32;
+  color: #9b2b32;
   margin-bottom: 20px;
 }
 p {
@@ -34,7 +14,7 @@ p {
   padding: 70px 15px;
 }
 .cmn-section:nth-child(odd) {
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   text-align: right;
 }
 .cmn-section .section-img {
@@ -51,7 +31,7 @@ p {
   height: 100%;
 }
 .cmn-section.contact-us-wrapper {
-  background-color: #FB4F5A;
+  background-color: #fb4f5a;
   color: white;
   padding: 100px 15px;
   text-align: center;
@@ -66,14 +46,14 @@ p {
 }
 .cmn-section.contact-us-wrapper .input-group .news-btn {
   background-color: #7f8c8d;
-  color: #F8F9FA;
+  color: #f8f9fa;
 }
 .cmn-section.contact-us-wrapper .input-group .news-btn:hover {
   background-color: #34495e;
   color: #7f8c8d;
 }
 .side-bar li {
-  color: #9B2B32;
+  color: #9b2b32;
 }
 .side-bar li a {
   color: #7f8c8d;
@@ -88,7 +68,7 @@ p {
   list-style-type: square;
 }
 .social-media {
-  background-color: #9B2B32;
+  background-color: #9b2b32;
   padding: 20px 0px;
 }
 .social-media a {
@@ -100,6 +80,26 @@ p {
 }
 .social-media a:hover {
   color: #7f8c8d;
+}
+.navigation-bar {
+  background-color: transparent !important;
+}
+.navigation-bar .brand-logo img {
+  width: 100px;
+}
+.navigation-bar .navbar-collapse {
+  justify-content: end;
+}
+.navigation-bar .nav-item .nav-link {
+  text-decoration: none;
+  color: #7f8c8d;
+  padding: 10px 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.navigation-bar .nav-item .nav-link:hover {
+  color: #34495e;
+  transition: 0.1s linear;
 }
 @media (max-width:1199px) {
   h2 {

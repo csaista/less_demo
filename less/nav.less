@@ -1,32 +1,25 @@
 @import "style.less";
-.navigation-bar
-{
-    background-color: transparent!important;
-    .brand-logo
-    {
-        img 
-        {
-            width: 100px;
-        }
+.navigation-bar {
+  background-color: transparent !important;
+  .brand-logo {
+    img {
+      width: 100px;
     }
-    .navbar-collapse
-    {
-        justify-content: center;
+  }
+  .navbar-collapse {
+    justify-content: end;
+  }
+  .nav-item {
+    .nav-link {
+      text-decoration: none;
+      color: @light-gray;
+      padding: 10px 25px;
+      font-size: 18px;
+      text-transform: uppercase;
+      &:hover {
+        color: @dark-gray;
+        transition: 0.1s linear;
+      }
     }
-    .nav-item
-    {
-        .nav-link 
-        {
-            text-decoration: none;
-            color: @light-gray;
-            padding: 10px 25px;
-            font-size: 18px;
-            text-transform: uppercase;
-            &:hover 
-            {
-                color: @dark-gray;
-                transition: .1s linear;
-            }
-        }
-    }
+  }
 }
